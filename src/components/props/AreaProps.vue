@@ -13,7 +13,7 @@
       <template v-if="area.display === 'grid'">
         <PropsAccordionItem
           name="explicit-grid"
-          heading="Explicit Grid"
+          heading="显式网格"
           :independent="true"
           :start-opened="true"
           :accordion="accordion"
@@ -21,12 +21,12 @@
           <AreaGridTemplateProps :area="area" />
           <AreaGridGapProps :area="area" />
         </PropsAccordionItem>
-        <PropsAccordionItem name="implicit-grid" heading="Implicit Grid" :independent="true" :accordion="accordion">
+        <PropsAccordionItem name="implicit-grid" heading="隐式网格" :independent="true" :accordion="accordion">
           <AreaGridImplicitProps :area="area" />
         </PropsAccordionItem>
         <PropsAccordionItem
           name="grid-items-placement"
-          heading="Grid Placement"
+          heading="网格布局"
           :independent="true"
           :accordion="accordion"
         >
@@ -48,7 +48,7 @@
       <PropsAccordionItem
         v-if="area.parent && area.parent.display === 'grid'"
         name="self-grid"
-        heading="Self Placement"
+        heading="自己的定位"
         :accordion="accordion"
         :independent="true"
       >
@@ -58,14 +58,14 @@
       <PropsAccordionItem
         v-if="area.parent && area.parent.display === 'flex'"
         name="self-flex"
-        heading="Self Flex"
+        heading="自己的Flex"
         :accordion="accordion"
         :independent="true"
       >
         <AreaSelfFlexProps :area="area" />
       </PropsAccordionItem>
 
-      <PropsAccordionItem name="area-box" :independent="true" heading="Area Box" :accordion="accordion">
+      <PropsAccordionItem name="area-box" :independent="true" heading="区域属性" :accordion="accordion">
         <AreaBoxProps :area="area" />
       </PropsAccordionItem>
 
@@ -92,7 +92,7 @@
         name="children"
         :independent="true"
         :start-opened="true"
-        heading="Children"
+        heading="子节点"
         :accordion="accordion"
         class="child-accordion"
       >
