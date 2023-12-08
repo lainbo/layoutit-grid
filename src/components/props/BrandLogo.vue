@@ -9,7 +9,7 @@
         />
       </svg>
     </a>
-    <VersionLabel />
+    <!-- <VersionLabel /> -->
   </div>
 </template>
 <style scoped lang="postcss">

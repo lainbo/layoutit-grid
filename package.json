@@ -51,7 +51,7 @@
     "workbox-window": "6.4.0"
   },
   "bugs": {
-    "url": "https://github.com/leniolabs/layoutit-grid/issues"
+    "url": "https://github.com/lainbo/layoutit-grid/issues"
   },
   "lint-staged": {
     "src/**/*.{js,vue}": [

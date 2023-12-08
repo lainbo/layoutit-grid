@@ -6,12 +6,12 @@
         rel="noopener"
         target="_blank"
         aria-label="View source on GitHub"
-        href="https://github.com/Leniolabs/layoutit-grid"
+        href="https://github.com/lainbo/layoutit-grid"
       >
         <IconGithub />
       </a>
       <slot name="body" />
-      <BrandBanner />
+      <!-- <BrandBanner /> -->
     </div>
   </vue-resizable>
 </template>

@@ -29,13 +29,13 @@ These instructions will get you a copy of the project up and running on your loc
 Use ssh
 
 ```bash
-git clone git@github.com:Leniolabs/layoutit-grid.git
+git clone git@github.com:lainbo/layoutit-grid.git
 ```
 
 Or https
 
 ```bash
-git clone https://github.com/leniolabs/layoutit-grid.git
+git clone https://github.com/lainbo/layoutit-grid.git
 ```
 ### Run it
 1. Install `pnpm` (https://pnpm.io/installation)
@@ -53,15 +53,15 @@ Your dev server will start and be running at
 
 #### Commands
 
-| Command         | Description                   |
-| --------------- | ----------------------------- |
+| Command          | Description                   |
+| ---------------- | ----------------------------- |
 | `pnpm install`   | Install the dependencies      |
 | `pnpm start`     | Run the project (in dev mode) |
 | `pnpm run build` | Build for deployment          |
 
 ## Contributing
 
-[Ideas](https://github.com/leniolabs/layoutit-grid/issues/new), pull requests and bug reports are welcome.
+[Ideas](https://github.com/lainbo/layoutit-grid/issues/new), pull requests and bug reports are welcome.
 
 ## Libs and Tools used
 

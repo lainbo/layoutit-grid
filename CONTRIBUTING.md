@@ -13,14 +13,14 @@
 > pull requests from branches on your fork. To do this, run:
 >
 > ```sh
-> git remote add upstream https://github.com/Leniolabs/layoutit-grid.git
+> git remote add upstream https://github.com/lainbo/layoutit-grid.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/main main
 > ```
 
 ### Option 2 - CodeSandbox
 
-1. Go to https://codesandbox.io/s/github/Leniolabs/layoutit-grid
+1. Go to https://codesandbox.io/s/github/lainbo/layoutit-grid
 1. Connect your Github account
 1. Go to Git tab on left side
 1. Tap on `Fork Sandbox`
