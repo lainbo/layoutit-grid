@@ -1,7 +1,7 @@
 <template>
   <vue-resizable :min-width="minWidth" :max-width="maxWidth" :width="width" :active="['l']" :disable-attributes="['l']">
     <div :class="['code-sidebar', { active: currentView === 'code' }]">
-      <a
+      <!-- <a
         class="btn-github"
         rel="noopener"
         target="_blank"
@@ -9,7 +9,7 @@
         href="https://github.com/lainbo/layoutit-grid"
       >
         <IconGithub />
-      </a>
+      </a> -->
       <slot name="body" />
       <!-- <BrandBanner /> -->
     </div>
